@@ -1,0 +1,34 @@
+.Card {
+    padding: var(--m);
+    /* border-color: black; */
+    /* border-width: 2px; */
+    border: 0;
+    box-shadow: rgba(0, 0, 0, 0.555) 0px 7px 15px 0px;
+    background-color: var(--grey);
+    margin: var(--m);
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.Card:hover .Card-button{
+    background-color: var(--lightgrey);
+}
+
+.Universe-button {
+    min-width: 90px
+}
+
+.Delete-button {
+    float: right;
+}
+
+.Card-button {
+    border: 0;
+    background-color: var(--grey);
+}
+
+.Card-button:hover {
+    background-color: var(--darkgrey);
+}
+

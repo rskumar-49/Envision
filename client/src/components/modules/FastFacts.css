@@ -1,0 +1,49 @@
+.FastFacts-1-by-7 {
+  display: grid;
+  grid-template-columns: 424px;
+  grid-template-rows: 34px 34px 34px 34px 34px 34px 34px;
+}
+
+.FastFacts-Title {
+  display: grid;
+  border: black 1px solid;
+  border-radius: var(--xs) 0 0 var(--xs);
+  transition: box-shadow 0.1s;
+  font-family: "Open Sans";
+  font-size: 14px;
+  padding: var(--s) var(--m);
+  text-align: center;
+}
+
+.FastFacts-Standalone-Title {
+  border: black 1px solid;
+  border-radius: var(--xs) 0 0 var(--xs);
+  transition: box-shadow 0.1s;
+  font-family: "Open Sans";
+  font-size: 24px;
+  padding: var(--s) var(--m);
+  text-align: center;
+  margin: var(--m) 0;
+  font-weight: bold;
+}
+
+.FastFacts-2-by-1-Uneven {
+  display: grid;
+  grid-template-columns: 424px 245px;
+}
+
+.FastFacts-1-by-2-Uneven {
+  display: grid;
+  grid-template-rows: 34px 238px;
+}
+
+.FastFacts-Margin-Top {
+  margin: 10px 10px 10px 10px;
+}
+
+.flex-grow-566 {
+  width: 566px;
+}
+.flex-grow-212 {
+  width: 212px;
+}

@@ -1,0 +1,18 @@
+.Wikipage-name-color {
+  background-color: lightblue;
+}
+.Wiki-container {
+  display: flex;
+}
+
+/* .Wiki-sidebar {
+  background-color: var(--darkgrey);
+  display: flex;
+  flex-direction: column;
+  width: 10vw;
+} */
+
+.Sidebar-entry {
+  background-color: var(--lightgrey);
+  word-wrap: break-word;
+}

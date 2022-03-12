@@ -1,0 +1,13 @@
+.Card {
+    padding: var(--m);
+    /* border-color: black; */
+    /* border-width: 2px; */
+    border: 0;
+    box-shadow: #0000008e 0px 7px 15px 0px;
+    background-color: var(--grey);
+    margin: var(--m);
+}
+
+.Card:hover {
+    background-color: var(--lightgrey);
+}

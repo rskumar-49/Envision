@@ -1,0 +1,32 @@
+/* TODO: Implement me to make the page pretty!*/
+
+.Dashboard-Container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Dashboard-item {
+    order: 0;
+    
+}
+
+.Attribution-link-container {
+    margin-top: 10vh;
+    background-color: var(--lightgrey);
+    display: flex;
+    flex-direction: column;
+}
+
+.Attribution-link {
+    text-decoration: none;
+    color: var(--darkgrey);
+}
+
+.Attribution-link:hover {
+    color: black;
+}
+
+.Attribution-item {
+    margin: var(--s)
+}

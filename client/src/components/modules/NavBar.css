@@ -1,0 +1,72 @@
+.NavBar-container {
+  background-color: var(--darkgrey);
+  /* position: fixed; */
+  /* top: 0; Positions it at the top of the page with the fixed above */
+  /* width: 100%; */
+  /* padding: var(--s) var(--m); */
+  height: 6vh;
+  min-height: 36px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.NavBar-title {
+  color: var(--white);
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: var(--s)
+}
+
+.NavBar-link-Container {
+  margin-left: var(--m);
+}
+
+.NavBar-link {
+  color: var(--white);
+  font-size: 16px;
+  margin-left: var(--m);
+  text-decoration: none;
+}
+
+.NavBar-link:hover {
+  color: rgb(206, 158, 0);
+}
+
+
+.User-Dropdown-Container {
+  position: relative;
+  margin-right: 80px;
+}
+
+.User-Dropdown-Button {
+  background-color: var(--darkgrey);
+  padding: var(--s);
+  height: 100%;
+  border: 0;
+  color: var(--white);
+  font-size: 16px;
+}
+
+.User-Dropdown-Content {
+  display: none;
+  position: absolute;
+  background-color: var(--medgrey);
+  /* margin-top: var(--s); */
+  /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+  z-index:1;
+}
+
+.User-Dropdown-Link-Container {
+  /* margin-right: 1000px */
+  padding: var(--s); 
+}
+.User-Dropdown-Link {
+  color: var(--white);
+  font-size: 16px;
+  text-decoration: None;
+}
+
+.User-Dropdown-Container:hover .User-Dropdown-Content {display: block};
+

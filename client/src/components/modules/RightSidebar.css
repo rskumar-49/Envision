@@ -1,0 +1,29 @@
+.RightSidebar {
+  height: 100%;
+  width: 288px;
+  /* position: absolute; */
+  left: 850px;
+  top: 140px;
+  background-color: var(--grey);
+  /* padding-top: var(--s); */
+  display: flex;
+  flex-direction: column;
+  font-family: "Open Sans";
+}
+.SingleUser-container {
+  background-color: var(--lightgrey);
+  /* border-radius: var(--xs); */
+  padding: var(--xs) var(--m);
+  border: black 1px solid;
+  /* margin-top: var(--s); */
+}
+
+.Top-container {
+  padding-bottom: var(--s);
+  padding-top: var(--s);
+  border: black 2px solid;
+}
+
+.New-button {
+  background-color: var(--grey);
+}

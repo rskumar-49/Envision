@@ -1,0 +1,45 @@
+.TextBlock-input,
+.TextBlock-button {
+  font-family: "Open Sans";
+  font-size: 12px;
+}
+
+.TextBlock-input {
+  border: black 1px solid;
+  /* border-radius: var(--xs) 0 0 var(--xs); */
+  transition: box-shadow 0.1s;
+  padding: var(--s) var(--m);
+}
+
+.TextBlock-input:focus-within {
+  border-color: black;
+  box-shadow: 0 0 0 var(--xs) rgba(0, 123, 255, 0.25);
+}
+
+.TextBlock-button {
+  color: var(--primary);
+  border: black 1px solid;
+  /* border-radius: 0 var(--xs) var(--xs) 0; */
+  background: none;
+  /* transition: color 0.1s, background 0.1s; */
+  padding: var(--s) var(--m);
+}
+
+.TextBlock-button:hover {
+  color: var(--white);
+  background-color: var(--primary);
+}
+
+.TextBlock-2-by-1 {
+  display: grid;
+  grid-template-columns: 212px 212px;
+}
+
+.TextBlock-width {
+  width: 566px;
+  text-align: center;
+}
+
+textarea {
+  resize: none;
+}
